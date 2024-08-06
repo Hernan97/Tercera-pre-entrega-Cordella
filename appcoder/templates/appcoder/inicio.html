@@ -1,0 +1,236 @@
+{% extends 'appcoder/base.html' %}
+
+{% load static %}
+
+<head>
+<title>
+    {% block title %}    
+        S&H
+    {% endblock %}
+</title>
+</head>
+
+<body>
+{% block content %}
+    <!-- slider section -->
+    <section class="slider_section ">
+        <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="container ">
+                <div class="row">
+                    <div class="col-md-6">
+                    <div class="detail-box">
+                        <h1>
+                        Tu Contador Virtual <br>
+                        LLeva al día tu negocio 
+                        </h1>
+                        <p>
+                        En SH & Asociados ofrecemos servicios contables de excelencia, adaptados a las necesidades de cada negocio e industria.
+                        En nuestro estudio contable impositivo contamos con un equipo de profesionales comprometidos con la contabilidad y los servicios financieros, eso nos inspira a estar a la vanguardia para anticiparnos a los desafíos que enfrentan las empresas en el entorno tributario argentino.
+                        Nuestra misión es brindar soluciones contables confiables y efectivas, para eso contamos con un enfoque personalizado, orientado a maximizar el rendimiento de su negocio. Nuestra trayectoria y experiencia profesional avalan nuestro compromiso.
+                        Lo invitamos a conocer nuestro estudio contable y optimizar su contabilidad de la mano de un equipo de confianza.</p>
+                        <div class="btn-box">
+                        <a href="" class="btn-1">
+                            Read More
+                        </a>
+                        <a href="" class="btn-2">
+                            Contact Us
+                        </a>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-md-6">
+                    <div class="row">
+                        <div class=" col-lg-10 mx-auto">
+                        <div class="img-box">
+                            <img src="{% static 'appcoder/assets/img/slider-img.png' %}" alt="">
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container ">
+                <div class="row">
+                    <div class="col-md-6">
+                    <div class="detail-box">
+                        <h1>
+                        Fast & Secure <br>
+                        Web Hosting
+                        </h1>
+                        <p>
+                        Anything embarrassing hidden in the middle of text. All the Lorem Ipsuanything embarrassing hidden in the middle of text. All the Lorem Ipsumm </p>
+                        <div class="btn-box">
+                        <a href="" class="btn-1">
+                            Read More
+                        </a>
+                        <a href="" class="btn-2">
+                            Contact Us
+                        </a>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-md-6">
+                    <div class="row">
+                        <div class=" col-lg-10 mx-auto">
+                        <div class="img-box">
+                            <img src="images/slider-img.png" alt="">
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container ">
+                <div class="row">
+                    <div class="col-md-6">
+                    <div class="detail-box">
+                        <h1>
+                        Fast & Secure <br>
+                        Web Hosting
+                        </h1>
+                        <p>
+                        Anything embarrassing hidden in the middle of text. All the Lorem Ipsuanything embarrassing hidden in the middle of text. All the Lorem Ipsumm </p>
+                        <div class="btn-box">
+                        <a href="" class="btn-1">
+                            Read More
+                        </a>
+                        <a href="" class="btn-2">
+                            Contact Us
+                        </a>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-md-6">
+                    <div class="row">
+                        <div class=" col-lg-10 mx-auto">
+                        <div class="img-box">
+                            <img src="images/slider-img.png" alt="">
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+            <div class="carousel_btn-box">
+            <a class="carousel-control-prev" href="#customCarousel1" role="button" data-slide="prev">
+                <i class="fa fa-angle-left" aria-hidden="true"></i>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#customCarousel1" role="button" data-slide="next">
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                <span class="sr-only">Next</span>
+            </a>
+            </div>
+        </div>
+        </section>
+        <!-- end slider section -->
+    </div>
+    <!-- server section -->
+    <section class="server_section">
+        <div class="container ">
+        <div class="row">
+            <div class="col-md-6">
+            <div class="img-box">
+                <img src="images/server-img.jpg" alt="">
+                <div class="play_btn">
+                <button>
+                    <i class="fa fa-play" aria-hidden="true"></i>
+                </button>
+                </div>
+            </div>
+            </div>
+            <div class="col-md-6">
+            <div class="detail-box">
+                <div class="heading_container">
+                <h2>
+                    Let us manage your Finance
+                </h2>
+                <p>
+                    Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore
+                </p>
+                </div>
+                <a href="">
+                Read More
+                </a>
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- end server section -->
+    
+    
+    <!-- contact section -->
+    <section class="contact_section layout_padding-bottom">
+        <div class="container">
+        <div class="heading_container heading_center">
+            <h2>
+            Get In Touch
+            </h2>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-lg-6 mx-auto">
+            <div class="form_container">
+                <form action="">
+                <div>
+                    <input type="text" placeholder="Your Name" />
+                </div>
+                <div>
+                    <input type="email" placeholder="Your Email" />
+                </div>
+                <div>
+                    <input type="text" placeholder="Your Phone" />
+                </div>
+                <div>
+                    <input type="text" class="message-box" placeholder="Message" />
+                </div>
+                <div class="btn_box ">
+                    <button>
+                    SEND
+                    </button>
+                </div>
+                </form>
+            </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- end contact section -->
+</body>
+{% endblock %}
+
+{% block links %}
+<div class="info_links">
+    <a class="active" href="{% url 'inicio' %}">
+        <img src="images/nav-bullet.png" alt="">
+        Home
+    </a>
+    <a class="" href="{% url 'profesores' %}">
+        <img src="images/nav-bullet.png" alt="">
+        About
+    </a>
+    <a class="" href="{% url 'cursos' %}">
+        <img src="images/nav-bullet.png" alt="">
+        Services
+    </a>
+    <a class="" href="{% url 'precios' %}">
+        <img src="images/nav-bullet.png" alt="">
+        Pricing
+    </a>
+    <a class="" href="{% url 'entregables' %}">
+        <img src="images/nav-bullet.png" alt="">
+        Contact Us
+    </a>
+    </div>
+{% endblock %}
+
+
+</html>
